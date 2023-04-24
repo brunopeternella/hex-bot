@@ -1,0 +1,21 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "eol-last": "error",
+        "camelcase": "error",
+        "default-case": "error",
+        "no-else-return": "error",
+        "no-multiple-empty-lines": "error",
+        "no-unused-vars": "warn",
+        "indent": ["error", 4]
+    }
+  }
